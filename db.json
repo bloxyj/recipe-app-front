@@ -1,0 +1,25 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Pâtes carbonara",
+            "imageUrl": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&auto=format&fit=crop",
+            "description": "Les vraies pâtes à la romaine",
+            "ingredients": ["spaghetti", "œufs", "pecorino", "guanciale", "poivre"],
+            "steps": ["Faire revenir le guanciale", "Battre les œufs avec le fromage", "Mélanger le tout hors du feu"],
+            "prepTime": 20,
+            "category": "plat"
+        
+        },
+        {
+            "id": 2,
+            "title": "Salade César",
+            "imageUrl": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600&auto=format&fit=crop",
+            "description": "Une salade fraîche et savoureuse",
+            "ingredients": ["laitue", "poulet", "parmesan", "croûtons", "sauce César"],
+            "steps": ["Griller le poulet", "Laver la laitue", "Mélanger tous les ingrédients"],
+            "prepTime": 15,
+            "category": "entrée"
+        }
+    ]
+}

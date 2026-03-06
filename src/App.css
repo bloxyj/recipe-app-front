@@ -1,0 +1,22 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 40px 80px;
+}
+
+.container > h1 {
+    margin-bottom: 40px;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.loading,
+.error {
+    text-align: center;
+    padding: 120px 40px;
+    color: #999;
+}
