@@ -34,3 +34,9 @@
 .app-header__nav a:hover {
     opacity: 0.5;
 }
+
+img {
+    height: 32px;
+    width: auto;
+
+}

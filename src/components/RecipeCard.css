@@ -14,34 +14,34 @@
 
 .recipe-card img {
     width: 100%;
-    height: 200px;
+    height: 260px;
     object-fit: cover;
 }
 
 .recipe-card h3 {
-    margin: 16px 16px 8px;
-    font-size: 1.05rem;
+    margin: 20px 20px 10px;
+    font-size: 1.2rem;
 }
 
 .recipe-card p {
-    margin: 0 16px 8px;
-    font-size: 0.875rem;
+    margin: 0 20px 10px;
+    font-size: 0.9rem;
     color: var(--text);
     line-height: 1.6;
     flex: 1;
 }
 
 .recipe-info {
-    margin: 0 16px 12px;
-    font-size: 0.78rem;
+    margin: 0 20px 14px;
+    font-size: 0.82rem;
     color: var(--text);
     line-height: 1.8;
 }
 
 .btn-detail {
     display: block;
-    margin: 0 16px 16px;
-    padding: 10px;
+    margin: 0 20px 20px;
+    padding: 12px;
     background-color: var(--text);
     color: var(--background);
     border-radius: 6px;

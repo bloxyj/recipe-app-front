@@ -4,11 +4,8 @@ import './RecipeCard.css';
 const RecipeCard = ({ recipe }) => {
     return (
         <div className="recipe-card">
+        <img src={recipe.imageUrl} alt={recipe.title}/>
         <h3>{recipe.title}</h3>
-        <img
-            src={recipe.imageUrl || "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fcats%2Fcomments%2F1nlvyud%2Fthis_is_a_popular_cat_called_rigby%2F&ved=0CBYQjRxqFwoTCLCWqtXYi5MDFQAAAAAdAAAAABAH&opi=89978449"}
-            alt={recipe.title}
-        />
 
         <p>{recipe.description}</p>
 
